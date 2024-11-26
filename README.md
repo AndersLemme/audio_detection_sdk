@@ -10,3 +10,9 @@ For more information about the siemens AI_SDK read the AI_SDK_en-US.pdf for inst
 - venv\Scripts\activate (to activate)
 
 - pip install AI_Software_Development_Kit_v2.1.0/simaticai-2.1.0-py3-none-any.whl
+
+
+## Resources and Documentation
+
+- [AI Software Development Kit](https://support.industry.siemens.com/cs/document/109810711/ai-software-development-kit-?dti=0&lc=en-NO) - Here you can download the SDK and and manuals/release notes for the different versions.
+- [Introduction to AI Software Development Kit](https://docs.industrial-operations-x.siemens.cloud/r/en-us/ai-sdk-operation-manual/introduction/introduction-to-ai-software-development-kit) - Documentation and manual for AI SDK.
