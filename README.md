@@ -34,3 +34,8 @@ To be able to use the SDK I created a new environment with python 3.10. I decide
 - [AI SDK tutorials GitHub](https://github.com/industrial-edge/ai-sdk-tutorials) - This includes all cind of guides on setup to packaging for AI Inference Server. 
 - [Introduction to AI Software Development Kit](https://docs.industrial-operations-x.siemens.cloud/r/en-us/ai-sdk-operation-manual/introduction/introduction-to-ai-software-development-kit) - Documentation and manual for AI SDK.
 
+
+## Notes - steps I think I have to do.
+
+- On vertial environment install jupyter notebook + Ipython kernal: https://github.com/siemens/simatic-ai-launcher/tree/master/environments/virtualenv
+- with image-classification example ?? 
