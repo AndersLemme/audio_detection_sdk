@@ -20,11 +20,40 @@ To be able to use the SDK I created a new environment with python 3.10. I decide
 - source venv/bin/activate (to activate)
 - pip install AI_Software_Development_Kit_v2.1.0/simaticai-2.1.0-py3-none-any.whl (install sdk package)
 
+#### e2e-tutorials
+
+I tried to run the newest version from github corelated to ai_sdk_v2.2: https://github.com/industrial-edge/ai-sdk-tutorials/tree/main/e2e-tutorials
+
+installing packages with e2e tutorial.
+
+('''cd ~/tutorials/e2e-tutorials/image_classification
+pip install ipykernel -r requirements.txt -f ~/ai_sdk_core ''')
+
+'''
+ pip install ipykernel -r requirements.txt -f ~/repos/audio_detection_sdk/ai_sdk_core
+ '''
 
 
+Once the environment is created and activated, you need to register it as an interactive Python kernel so that it becomes available in your notebook editor. This is can be achieved with the following command:
+
+python -m ipykernel install --user --name image_classification --display-name "Python (image_classification)"
+
+
+#### VSCode Extensions (not installed yet)
+You will be prompted to install extensions when first opening a Jypyter notebook in VScode
+To manually install the notebook extensions for Python and Jupyter, run the following script:
+
+'''
+code --disable-telemetry --install-extension ms-python.python
+code --disable-telemetry --install-extension ms-python.vscode-pylance
+code --disable-telemetry --install-extension ms-toolsai.jupyter
+code --disable-telemetry --install-extension ms-toolsai.jupyter-keymap
+code --disable-telemetry --install-extension ms-toolsai.jupyter-renderers
+code --disable-telemetry --install-extension ms-toolsai.vscode-jupyter-cell-tags
+code --disable-telemetry --install-extension ms-toolsai.vscode-jupyter-slideshow
+'''
 
 ### WSL
-
 
 - sudo update-alternatives --config python
 
@@ -39,3 +68,4 @@ To be able to use the SDK I created a new environment with python 3.10. I decide
 
 - On vertial environment install jupyter notebook + Ipython kernal: https://github.com/siemens/simatic-ai-launcher/tree/master/environments/virtualenv
 - with image-classification example ?? 
+
